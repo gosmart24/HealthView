@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "32398093447",
+    "firebase_url": "https://healthview-d0799.firebaseio.com",
+    "project_id": "healthview-d0799",
+    "storage_bucket": "healthview-d0799.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32398093447:android:e1ce2d5a3efa03b1",
+        "android_client_info": {
+          "package_name": "com.cybertech.healthview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32398093447-nue0u0ls31dggqnuimgimlv3thelvj5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cybertech.healthview",
+            "certificate_hash": "21216856364209bcba84d6b36fcea424b5cd90a3"
+          }
+        },
+        {
+          "client_id": "32398093447-j5msrpavmp0ivieo2994oe7nt03uco33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2bml6k5AZnkq_SxAD8lwtNrEbb79gufg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32398093447-j5msrpavmp0ivieo2994oe7nt03uco33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

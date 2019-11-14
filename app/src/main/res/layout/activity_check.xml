@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cybertech.healthview.CheckActivity">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/checkRadio_group_id" >
+
+        <RadioButton
+            android:id="@+id/admin_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Admin" />
+
+        <RadioButton
+            android:id="@+id/doctor_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Doctor" />
+
+        <RadioButton
+            android:id="@+id/nurse_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nurse" />
+
+        <RadioButton
+            android:id="@+id/lab_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lab Technician" />
+
+        <RadioButton
+            android:id="@+id/patient_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Patient" />
+
+        <RadioButton
+            android:id="@+id/pharmacy_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pharmacy" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkRadio_group_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:textSize="18sp"
+        android:text="Please select your user type to continue" />
+
+    <Button
+        android:id="@+id/submit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkRadio_group_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Submit" />
+</RelativeLayout>

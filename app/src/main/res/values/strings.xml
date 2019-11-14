@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GHMx System</string>
+    <string name="title_activity_doctors">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pharmacy">Pharmacy\'s Home</string>
+    <string name="title_activity_patient">Home</string>
+    <string name="moses_n_2014_1_50864ci">BY \n\n  OKPE IZOMA MOSES \n\n 2014/1/50864CI</string>
+    <string name="invalid_MSG">Invalid Username or Password!</string>
+    <string name="requiredfields">Required fields cannot be empty!</string>
+    <string name="title_activity_admin">Admin - New Patient Record</string>
+    <string name="title_activity_nurse">Nurse</string>
+    <string name="title_activity_lab">Lab Technician</string>
+    <string name="topic">IOTBased Outpatient Management System</string>
+
+    <string-array name="userlist">
+        <item>Doctor</item>
+        <item>Lab Attendant</item>
+        <item>Nurse</item>
+        <item>Pharmacist</item>
+    </string-array>
+
+    <string-array name="userlist2">
+        <item>Lab Attendant</item>
+        <item>Nurse</item>
+        <item>Pharmacist</item>
+    </string-array>
+
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

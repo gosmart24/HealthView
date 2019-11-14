@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/v_patient_detail"
+        android:orderInCategory="100"
+        android:title="View More"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_prescription"
+        android:orderInCategory="100"
+        android:title="Diagnoses"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refer_lab"
+        android:orderInCategory="100"
+        android:title="Refer to Lab"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refer_pharmacy"
+        android:orderInCategory="100"
+        android:title="Refer to Pharmacy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refer_nursing"
+        android:orderInCategory="100"
+        android:title="Refer to Nursing"
+        app:showAsAction="never" />
+</menu>
